@@ -1,5 +1,5 @@
 # cpp-hello-world
-## How to build
+## How to compile
 ```
 clang++ main.cpp
 ```
@@ -15,4 +15,16 @@ gcc++ main.cpp
 ./a.out
 ```
 
+# Build with `make`
+```
+make
+./hello.out
+```
+
+# Build with `cmake`
+```
+cd build
+cmake ..
+make
+```
 
